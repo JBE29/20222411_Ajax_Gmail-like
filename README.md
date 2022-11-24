@@ -1,7 +1,11 @@
+# HEROKU LINK
+
+https://git.heroku.com/ajax-gmaillike.git
+
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 7.0.4
+Ruby 3.0.0
 
 Things you may want to cover:
 
