@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>JB Mail</title>
+  <title>Assieds-toi !</title>
   <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
       <%=stylesheet_link_tag 'application' , media: 'all' %>
@@ -11,15 +11,16 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
           <meta name="viewport" content="width=device-width, initial-scale=1">
           <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+          <script src="https://js.stripe.com/v3/"></script>
 </head>
 
 <body>
-  <div class="bg-info">
+  <div class="bg-warning">
     <%= render 'layouts/navbar' %>
       <%= render 'layouts/flash' %>
-        
+        <div class="container-xxl border border-dark border-2 rounded-3 bg-light">
           <%= yield %>
-
+        </div>
   </div>
 </body>
 
